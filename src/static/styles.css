@@ -80,13 +80,26 @@ section h3 {
 
 .participants-list {
   margin: 8px 0 0 0;
-  padding-left: 18px;
-  list-style: disc inside;
+  padding-left: 0;
+  list-style: none;
   color: #444;
 }
 
 .participants-list li {
   margin-bottom: 4px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #ff4444;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  color: #cc0000;
 }
 
 .form-group {
